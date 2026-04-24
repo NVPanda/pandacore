@@ -1,0 +1,9 @@
+{
+  "keywords": {
+    "let": "let",
+    "function": "func",
+    "audit": "audit",
+    "contract": "contract",
+    "decimal": "fixed"
+  }
+}

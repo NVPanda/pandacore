@@ -1,0 +1,24 @@
+[package]
+name = "pandacore"
+version = "0.1.0"
+edition = "2024"
+authors = ["NVPandaDev", "Gemini <powered by Google>"]
+description = "Motor Multi-Paradigma: Segurança COBOL, Acesso HolyC."
+
+[dependencies]
+# 1. Parser: 'nom' é a biblioteca mais rápida do ecossistema Rust.
+# Ele nos permite fatiar  os blocos de código com segurança absoluta.
+nom = "7.1"
+
+# 2. Motor de Tradução e Locales: Pra carregar os dicionários JSON (ex: en-US.json)
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# 3. Filtro Zero-Trust: Normalização de texto para barrar Malwares
+unicode-normalization = "0.1"
+
+# 4. O coração do JIT: Cranelift (O mesmo usado para compilar WebAssembly)
+# Ele vai transformar nossa AST em código de máquina instantâneo.
+cranelift = "0.105.0"
+cranelift-jit = "0.105.0"
+cranelift-module = "0.105.0"
