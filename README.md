@@ -1,5 +1,5 @@
 <div align="center">
-    <h1># 🐼 PCL — PandaCore Lang</h1>
+    <h1>🐼 PCL — PandaCore Lang</h1>
 
 ![Rust](https://img.shields.io/badge/Rust-inspired-orange)
 ![COBOL](https://img.shields.io/badge/COBOL-inspired-blue)
