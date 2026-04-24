@@ -140,6 +140,3 @@ Se este projeto é relevante para você
 ---
 
 **PCL — Segurança previsível desempenho consistente**
-
-```
-```
