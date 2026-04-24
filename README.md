@@ -1,126 +1,145 @@
-````markdown
-# 🐼 PCL — PandaCore Lang
+<div align="center">
+    <h1># 🐼 PCL — PandaCore Lang</h1>
 
-> Uma linguagem moderna, segura e performática, inspirada no melhor de **Rust**, **COBOL**, **Wasm** e **HolyC**.
+![Rust](https://img.shields.io/badge/Rust-inspired-orange)
+![COBOL](https://img.shields.io/badge/COBOL-inspired-blue)
+![WebAssembly](https://img.shields.io/badge/Wasm-target-purple)
+![HolyC](https://img.shields.io/badge/HolyC-inspired-lightgrey)
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+</div>
+## 📖 Sobre o Projeto
+
+**PCL — PandaCore Lang** é uma linguagem de programação moderna projetada para ambientes que exigem **alto desempenho, segurança e previsibilidade**.
+
+Combina conceitos de linguagens consolidadas com uma abordagem prática para sistemas críticos e aplicações corporativas.
 
 ---
 
-## 🚀 Visão Geral
+## 🎯 Objetivos
 
-**PCL (PandaCore Lang)** é uma linguagem de programação projetada para unir:
-
-- ⚡ **Performance de baixo nível**
-- 🔒 **Segurança de memória**
-- 🧾 **Legibilidade empresarial**
-- 🌐 **Portabilidade universal**
-
-Criada para desenvolvedores que querem produtividade sem abrir mão de controle.
+- Garantir **segurança por padrão**
+- Oferecer **performance comparável a linguagens de baixo nível**
+- Manter **clareza semântica para regras de negócio**
+- Permitir **portabilidade entre plataformas modernas**
+- Reduzir superfícies para **injeção de código malicioso**
 
 ---
 
-## 🧠 Filosofia
+## 🧱 Princípios de Design
 
-> “Simplicidade no alto nível, poder no baixo nível.”
-
-A PCL segue princípios claros:
-
-- Código explícito e previsível
-- Segurança por padrão (sem custos ocultos)
-- Sintaxe clara para sistemas complexos
-- Compilação eficiente para múltiplos targets
+- Código explícito e auditável  
+- Segurança integrada ao compilador  
+- Execução determinística  
+- Simplicidade estrutural  
+- Baixo overhead operacional  
 
 ---
 
-## 🧩 Influências
+## 🔐 Segurança
 
-| Tecnologia | Contribuição |
-|-----------|-------------|
-| 🦀 Rust   | Segurança de memória e ownership |
-| 🏦 COBOL  | Clareza e foco em regras de negócio |
-| 🌐 WebAssembly (Wasm) | Portabilidade e execução universal |
-| 🖥️ HolyC  | Simplicidade e controle direto |
+A PCL incorpora mecanismos para **prevenir e mitigar código malicioso desde a origem**:
 
----
+- Análise estática rigorosa  
+- Restrições seguras de execução  
+- Controle de memória sem comportamento indefinido  
+- Verificação de integridade de módulos  
+- Bloqueio de padrões inseguros em tempo de compilação  
 
-## ✨ Principais Features
-
-- 🔒 **Memory-safe por padrão**
-- ⚙️ **Controle de baixo nível quando necessário**
-- 📦 **Sistema de módulos simples e poderoso**
-- 🔄 **Compilação para múltiplas plataformas (incluindo WebAssembly)**
-- 🧾 **Sintaxe clara para aplicações corporativas**
-- 🚀 **Alta performance sem garbage collector**
+A proposta é simples  
+**código inseguro não deve compilar**
 
 ---
 
-## 📌 Exemplo de Código
+## ⚙️ Arquitetura
+
+- Compilação estática  
+- Sem garbage collector  
+- Sistema de módulos enxuto  
+- Suporte planejado para WebAssembly  
+- Controle refinado de recursos  
+
+---
+
+## 💡 Exemplo
 
 ```pcl
 fn main() {
-    let message: string = "Hello, PandaCore 🐼";
+    let message: string = "Hello PandaCore 🐼";
     print(message);
 }
 ````
 
 ---
 
-## 🏗️ Casos de Uso
+## 🏢 Casos de Uso
 
-* Sistemas corporativos e financeiros 💼
-* Backend de alta performance ⚡
-* Aplicações WebAssembly 🌐
-* Sistemas embarcados 🧠
-* Ferramentas de infraestrutura 🛠️
-
----
-
-## 🛣️ Roadmap
-
-* [ ] Parser e especificação da linguagem
-* [ ] Compilador inicial
-* [ ] Runtime mínimo
-* [ ] Suporte a WebAssembly
-* [ ] Ecossistema de bibliotecas
+* Sistemas financeiros e corporativos
+* Backends de alta performance
+* Infraestrutura e tooling
+* Ambientes embarcados
+* Aplicações sensíveis à segurança
 
 ---
 
-## 🤝 Contribua com o Projeto
+## 🗺️ Roadmap
 
-Este projeto está em construção — e você pode fazer parte disso desde o início.
-
-Se você é:
-
-* 💡 Engenheiro(a) de linguagens
-* ⚙️ Desenvolvedor(a) de sistemas
-* 🧪 Entusiasta de compiladores
-* 🚀 Ou apenas curioso(a) por novas tecnologias
-
-👉 **Sua contribuição é extremamente bem-vinda.**
-
-### Como contribuir:
-
-* Sugira ideias e melhorias
-* Reporte problemas
-* Construa features
-* Ajude a definir o futuro da linguagem
-
-> 🐼 **Vamos construir juntos a próxima geração de linguagens de programação.**
+* Especificação da linguagem
+* Implementação do parser
+* Desenvolvimento do compilador
+* Runtime mínimo
+* Camada de segurança avançada
+* Suporte a WebAssembly
+* Ecossistema inicial
 
 ---
 
-## 📬 Contato & Comunidade
+## 🤝 Contribuição
 
-* Discussions
-* Issues
-* Pull Requests
+A PCL está em estágio inicial e aberta à construção colaborativa.
+
+Buscamos profissionais e entusiastas nas áreas de:
+
+* Engenharia de compiladores
+* Sistemas de baixo nível
+* Segurança de software
+* Arquitetura de linguagens
+
+### Como contribuir
+
+* Abrir issues com sugestões ou problemas
+* Propor melhorias estruturais
+* Submeter pull requests
+* Participar das discussões técnicas
+
+---
+
+## 📊 Status do Projeto
+
+Em desenvolvimento ativo
+Mudanças estruturais podem ocorrer
+
+---
+
+## 📄 Licença
+
+MIT License
 
 ---
 
 ## ⭐ Apoie
 
-Se você acredita na proposta da **PCL**, deixe uma estrela e acompanhe o projeto.
+Se este projeto é relevante para você
 
-> *Code with clarity. Build with power.* 🐼
+* Deixe uma estrela
+* Acompanhe atualizações
+* Compartilhe com outros desenvolvedores
+
+---
+
+**PCL — Segurança previsível desempenho consistente**
 
 ```
 ```
